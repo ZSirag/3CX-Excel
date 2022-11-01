@@ -1,7 +1,8 @@
 # 3CX
 Per l'installazione dell'addins:
-1. copiare unzippare il file dentro c:\Excel\
-2. Far partire il setup dentro la cartella c:\Excel\3CX\Pubish\setup.exe
+1. recarsi dentro la cartella publish
+2. Far partire il setup 
+3. Ne necessitate di un setup, aprire il progetto (doppio clic sul file 3CX.sln) con visual studio e fate partire il build 
 
 # Come funziona ?
 Una volta installato l'addin, apparirà nella barra multifunzione la scritta "3CX 2.0":
