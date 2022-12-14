@@ -1,16 +1,16 @@
 {
-  pagine: [
-    {nome: "Interni", celle: [[]]},
-    {nome: "Contatti", celle: [[]]},
-    {nome: "Impostazioni", celle:[[]]},
-    {nome: "Uscita interni", celle:[[]]}, 
-    {nome: "Uscita contatti", celle:[[]]}
-  ],
-  conf_base: [],
-  produttori: [
-    {nome: "Yealink", modelli: [], fileXML: "", conf: ''},
-    {nome: "Cisco", modelli: [], fileXML: "", conf: ''},
-    {nome: "Snom", modelli: [], fileXML: "", conf: ''},
-    {nome: "Fanvil", modelli: [], fileXML: "", conf: ''}
-  ]
-}
+    "pagine": [
+      {"nome": "Interni", "celle": [[]]},
+      {"nome": "Contatti", "celle": [[]]},
+      {"nome": "Impostazioni", "celle":[[]]},
+      {"nome": "Uscita interni", "celle":[[]]}, 
+      {"nome": "Uscita contatti", "celle":[[]]}
+    ],
+    "conf_base": [],
+    "produttori": [
+      {"nome": "Yealink", "modelli": [], "fileXML": "", "conf": ""},
+      {"nome": "Cisco", "modelli": [], "fileXML": "", "conf": ""},
+      {"nome": "Snom", "modelli": [], "fileXML": "", "conf": ""},
+      {"nome": "Fanvil", "modelli": [], "fileXML": "", "conf": ""}
+    ]
+  }
