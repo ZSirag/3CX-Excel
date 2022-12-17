@@ -14,12 +14,12 @@
     ],
     "conf_base": ["","","","","","","","","","","","","1","","0","","0","0","1","","","0","1","1","0","0","","","","","","","0","","","0","0","1","","0","","","1","0","","","","","","","","","0","","","","","","1","","1","","","",""],
     "conf_contatti": ["","","","","","","","","","","","","",""],
-    "produttori": [
-        {"nome": "Yealink", "modelli": [], "riga": 2},
-        {"nome": "Cisco", "modelli": [], "riga": 4},
-        {"nome": "Snom", "modelli": [], "riga": 3},
-        {"nome": "Fanvil", "modelli": [], "riga": 5}
-    ],
+    "produttori": {
+        "Yealink": {"modelli": [], "riga": 2},
+        "Cisco": {"modelli": [], "riga": 4},
+        "Snom": {"modelli": [], "riga": 3},
+        "Fanvil": {"modelli": [], "riga": 5}
+    },
     "offsets": {
         "interni": [1, 2, 3, 4, 5, 20, 54, 41],
         "impostazioni": [42, 55, 57 ],
