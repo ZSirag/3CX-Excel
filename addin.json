@@ -13,7 +13,7 @@
         {"nome": "Uscita contatti", "range": "A1:N1", "celle":[["FirstName","LastName","Company","Mobile","Mobile2","Home","Home2","Business","Business2","Email","Other","BusinessFax","HomeFax","Pager"]]}
     ],
     "conf_base": ["","","","","","","","","","","","","1","","0","","0","0","1","","","0","1","1","0","0","","","","","","","0","","","0","0","1","","0","","","1","0","","","","","","","","","0","","","","","","1","","1","","","",""],
-    "conf_contatti": ["","","","","","","","","","","","","",""],
+    "conf_contatti": ["","","","","","","","","","","","",""],
     "produttori": [
         {"nome": "Yealink", "modelli": [], "riga": 2},
         {"nome": "Cisco", "modelli": [], "riga": 4},
