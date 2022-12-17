@@ -18,5 +18,10 @@
         {"nome": "Cisco", "modelli": [], "riga": 4},
         {"nome": "Snom", "modelli": [], "riga": 3},
         {"nome": "Fanvil", "modelli": [], "riga": 5}
+    ],
+    "offsets": [
+        {"pagina": "interni", "valori": [1, 2, 3, 4, 5, 20, 54, 41]},
+        {"pagina": "impostazioni", "valori": [42, 55, 57 ]},
+        {"pagina": "contatti", "valori": [1, 2, 10, 4, 5, 6, 7, 8, 9]}
     ]
 }
