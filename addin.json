@@ -13,7 +13,7 @@
         {"nome": "Uscita contatti", "range": "A1:N1", "celle":[["FirstName","LastName","Company","Mobile","Mobile2","Home","Home2","Business","Business2","Email","Other","BusinessFax","HomeFax","Pager"]]}
     ],
     "conf": {
-        "interni": {"template": ["","","","","","","",""], "offsets":  [1, 2, 3, 4, 5, 15, 49, 35]},
+        "interni": {"template": ["","","","","","","",""], "offsets":  [1, 2, 3, 4, 5, 15, 49, 36]},
         "contatti": {"template": ["","","","","","","","","","","","","",""], "offsets": [1, 2, 10, 4, 5, 6, 7, 8, 9]},
         "impostazioni": {"template": ["","", "","","",""],"offsets": [36, 49, 51 ], "import": [1,4,5]},
         "uscitaInterni": {"template": ["","","","","","","","","","","","","1","","0","","0","0","1","","","0","1","1","0","0","","","","","","","0","","","0","0","1","","0","","","1","0","","","","","","","","","0","","","","","","1","","1","","","",""]}
