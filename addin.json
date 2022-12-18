@@ -12,8 +12,11 @@
         {"nome": "Uscita interni", "range": "A1:BM1","celle":[["Number","FirstName","LastName","EmailAddress","MobileNumber","AuthID","AuthPassword","WebMeetingFriendlyName","WebMeetingPrivateRoom","ClickToCall","ClickToCallFriendlyName","WebMeetingAcceptReject","EnableVoicemail","VMNoPin","VMPlayCallerID","PIN","VMPlayMsgDateTime","VMEmailOptions","QueueStatus","OutboundCallerID","SIPID","DeliverAudio","SupportReinvite","SupportReplaces","EnableSRTP","ManagementAccess","ReporterAccess","WallboardAccess","TurnOffMyPhone","HideFWrules","CanSeeRecordings","CanDeleteRecordings","RecordCalls","CallScreening","EmailMissedCalls","Disabled","DisableExternalCalls","AllowLanOnly","BlockRemoteTunnel","PinProtect","MAC_0","InterfaceIP_0","UseTunnel","DND","UseCTI","StartupScreen","HotelModuleAccess","DontShowExtInPHBK","DeskphoneWebPass","SrvcAccessPwd","VoipAdmin","SysAdmin","SecureSIP","PhoneModel14","PhoneTemplate14","CustomTemplate","PhoneSettings","AllowAllRecordings","PushExtension","Integration","AllowOwnRecordings","RecordExternalCallsOnly","DID","SMS","PhoneSysAdmin"]]}, 
         {"nome": "Uscita contatti", "range": "A1:N1", "celle":[["FirstName","LastName","Company","Mobile","Mobile2","Home","Home2","Business","Business2","Email","Other","BusinessFax","HomeFax","Pager"]]}
     ],
-    "conf_base": ["","","","","","","","","","","","","1","","0","","0","0","1","","","0","1","1","0","0","","","","","","","0","","","0","0","1","","0","","","1","0","","","","","","","","","0","","","","","","1","","1","","","",""],
-    "conf_contatti": ["","","","","","","","","","","","","",""],
+    "conf": {
+        "conf_uscitaInterni": ["","","","","","","","","","","","","1","","0","","0","0","1","","","0","1","1","0","0","","","","","","","0","","","0","0","1","","0","","","1","0","","","","","","","","","0","","","","","","1","","1","","","",""],
+        "conf_contatti": ["","","","","","","","","","","","","",""],
+        "conf_impostazioni": ["", "","","",""]
+    },
     "produttori": {
         "Yealink": {"modelli": ["T31P", "T23G"], "riga": 2},
         "Cisco": {"modelli": ["SPA 503G", "SPA 303"], "riga": 4},
