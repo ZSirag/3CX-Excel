@@ -19,7 +19,7 @@
         "uscitaInterni": {"template": ["","","","","","","","1","","0","","0","0","1","","","0","1","1","0","0","","","","","","","0","","","0","0","1","","0","","","1","0","","","","","","","","","0","","","","","","1","","1","","","",""]}
     },
     "produttori": {
-        "Yealink": {"modelli": ["T31P", "T23G"], "riga": 2},
+        "Yealink": {"modelli": ["Yealink T19 E2","Yealink T19P E2","Yealink T21 E2","Yealink T21P E2","Yealink T23G","Yealink T23P","Yealink T27G","Yealink T30P","Yealink T31G","Yealink T31P","Yealink T33G","Yealink T33P","Yealink T40G","Yealink T40P","Yealink T41S","Yealink T41U","Yealink T42S","Yealink T42U","Yealink T43U","Yealink T46S","Yealink T46U","Yealink T48S","Yealink T48U","Yealink T52S","Yealink T53","Yealink T53C","Yealink T53W","Yealink T54S","Yealink T54W","Yealink T57W"], "riga": 2},
         "Cisco": {"modelli": ["Cisco SPA-302","Cisco SPA-303","Cisco SPA-501G","Cisco SPA-502G","Cisco SPA-504G","Cisco SPA-508G","Cisco SPA-509G","Cisco SPA-512G","Cisco SPA-514G"], "riga": 4},
         "Snom": {"modelli": ["M900", "M700"], "riga": 3},
         "Fanvil": {"modelli": ["X6", "X1S"], "riga": 5}
