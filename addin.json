@@ -20,7 +20,7 @@
     },
     "produttori": {
         "Yealink": {"modelli": ["T31P", "T23G"], "riga": 2},
-        "Cisco": {"modelli": ["SPA 503G", "SPA 303"], "riga": 4},
+        "Cisco": {"modelli": ["Cisco SPA-302","Cisco SPA-303","Cisco SPA-501G","Cisco SPA-502G","Cisco SPA-504G","Cisco SPA-508G","Cisco SPA-509G","Cisco SPA-512G","Cisco SPA-514G"], "riga": 4},
         "Snom": {"modelli": ["M900", "M700"], "riga": 3},
         "Fanvil": {"modelli": ["X6", "X1S"], "riga": 5}
     }
