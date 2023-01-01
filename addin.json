@@ -17,7 +17,7 @@
         "contatti": {"template": ["","","","","","","","","","","","","",""], "offsets": [1, 2, 10, 4, 5, 6, 7, 8, 9]},
         "impostazioni": {"template": ["","", "","","",""],"offsets": [36, 49, 51 ], "import": [1,4,5]},
         "uscitaInterni": {"template": ["","","","","","","","1","","0","","0","0","1","","","0","1","1","0","0","","","","","","","0","","","0","0","1","","0","","","1","0","","","","","","","","","0","","","","","","1","","1","","","",""]},
-        "credenziali": {"pin":[11], "pinLength": 4, "password": [6,7,44,45], "passwordLength": 10}
+        "credenziali": {"pin":[12], "pinLength": 4, "password": [7,8,45,46], "passwordLength": 10}
     },
     "produttori": {
         "Yealink": {"modelli": ["Yealink T19 E2","Yealink T19P E2","Yealink T21 E2","Yealink T21P E2","Yealink T23G","Yealink T23P","Yealink T27G","Yealink T30P","Yealink T31G","Yealink T31P","Yealink T33G","Yealink T33P","Yealink T40G","Yealink T40P","Yealink T41S","Yealink T41U","Yealink T42S","Yealink T42U","Yealink T43U","Yealink T46S","Yealink T46U","Yealink T48S","Yealink T48U","Yealink T52S","Yealink T53","Yealink T53C","Yealink T53W","Yealink T54S","Yealink T54W","Yealink T57W"], "riga": 2},
