@@ -1,0 +1,61 @@
+:root {
+    --erecta: #4dadc6;
+    --nero: #0f111a;
+}
+
+#display, #webimport, #btn_importEXT  {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button, select, option {
+    background-color: var(--erecta);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+button:hover {
+    cursor: pointer;
+}
+button:active{
+    position: relative;
+    top: 1px;
+}
+
+#titolo {
+    background-color: var(--nero);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#pagina, #telefono {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+#msg {
+    text-align: center;
+}
+h1 {
+    font-size: 18px;
+}
+#msg {
+    display: block;
+}
+
+#btn_update {
+    background-color: grey;
+    
+}
