@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3CX - Extract PHONEBOOK</title>
+    <script src="./Script/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Style/main.css">
+</head>
+<body>
+    <div id="body">
+        <div class="nav">
+            3CX - TOOLS: Rubrica
+        </div>
+        <div id="content">
+            <div id="dz-container">
+                <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);" onclick="fileInputClick()">
+                    <p>Trascina qui il file XML <br> dentro il backup di 3CX 😉</p>
+                </div>
+                <input type="file" style="display: none;" id="fileElm" onchange="fileInputHandle(this)">
+            </div>
+            <div id="pb-container" style="display: none;">
+                <div class="center">
+                    <div id="pb-title">
+                        <input type="checkbox" onchange="selectAll(this)">
+                        <p>Elenco contatti</p>
+                        <button onclick="saveAll()"><i class="bi bi-floppy-fill"></i></button>
+                    </div>
+                    <div id="pb-entrylist">
+                        <div class="pb-entry" id="entry-clone">
+                            <input type="checkbox" data-index=""></input>
+                            <p></p>
+                            <button><i class="bi bi-floppy-fill"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
