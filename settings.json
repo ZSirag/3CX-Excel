@@ -1,0 +1,38 @@
+{
+    "pages": [
+        {
+            "name": "Interni",
+            "cells": ["Interno", "Nome", "Cognome", "Email", "Numero cellulare", "Numero uscita", "Telefono", "MAC", "SBC", "VLAN"]
+        },{
+            "name": "Contatti",
+            "cells": ["Nome", "Cognome", "Email", "Numero 1", "Numero 2", "Numero 3", "Numero 4", "Numero 5", "Numero 6"]
+        },{
+            "name": "Uscita interni",
+            "cells": ["Number","FirstName","LastName","EmailAddress","MobileNumber","AuthID","AuthPassword","EnableVoicemail","VMNoPin","VMPlayCallerID","PIN","VMPlayMsgDateTime","VMEmailOptions","QueueStatus","OutboundCallerID","SIPID","DeliverAudio","SupportReinvite","SupportReplaces","EnableSRTP","ManagementAccess","ReporterAccess","WallboardAccess","TurnOffMyPhone","HideFWrules","CanSeeRecordings","CanDeleteRecordings","RecordCalls","CallScreening","EmailMissedCalls","Disabled","DisableExternalCalls","AllowLanOnly","BlockRemoteTunnel","PinProtect","MAC_0","InterfaceIP_0","UseTunnel","DND","UseCTI","StartupScreen","HotelModuleAccess","DontShowExtInPHBK","DeskphoneWebPass","SrvcAccessPwd","VoipAdmin","SysAdmin","SecureSIP","PhoneModel14","PhoneTemplate14","CustomTemplate","PhoneSettings","AllowAllRecordings","PushExtension","Integration","AllowOwnRecordings","RecordExternalCallsOnly","DID","PhoneSysAdmin","SrvcAccessHash"]
+        },{
+            "name": "Uscita contatti",
+            "cells": ["FirstName","LastName","Company","Mobile","Mobile2","Home","Home2","Business","Business2","Email","Other","BusinessFax","HomeFax","Pager"]
+        }
+    ],
+    "phones": [
+        {
+            "name": "Yealink",
+            "models": ["Yealink T19 E2","Yealink T19P E2","Yealink T21 E2","Yealink T21P E2","Yealink T23G","Yealink T23P","Yealink T27G","Yealink T30P","Yealink T31G","Yealink T31P","Yealink T33G","Yealink T33P","Yealink T40G","Yealink T40P","Yealink T41S","Yealink T41U","Yealink T42S","Yealink T42U","Yealink T43U","Yealink T46S","Yealink T46U","Yealink T48S","Yealink T48U","Yealink T52S","Yealink T53","Yealink T53C","Yealink T53W","Yealink T54S","Yealink T54W","Yealink T57W"],
+            "xml": "yealinkT4x.ph.xml",
+            "nosbc": "<PhoneDevice ProvType=\"0\" PhoneLanguage=\"Italian\" XferType=\"AttXfer\" RingTone=\"Ring 1\" DateFormat=\"DD MMM YYYY (15 Jan 2017)\" TimeFormat=\"24-hour clock\" PowerLed=\" No Power LED notifications\" Backlight=\" 1 minute\" ScreenSaver=\" 5 minutes\"><CustomQueueRingTones /><mcgroups enabled=\" false\" /><DynamicOptions><option name=\" vlanwanport\" value=\" False\" /><option name=\" vlanwanid\" value=\" 1\" /><option name=\" vlanwanpriority\" value=\" 0\" /><option name=\" vlanpcport\" value=\" False\" /><option name=\" vlanpcid\" value=\" 1\" /><option name=\" vlanpcpriority\" value=\" 0\" /></DynamicOptions><LldpOptions><option name=\" lldpvalue\" value=\" True\" /></LldpOptions><CodecsPriority><Codec Priority=\" 1\" PriorityVarName=\" codec1\" DisplayText=\" PCMU\" PayloadTypeName=\" payload1\" payload=\" PCMU\">0</Codec><Codec Priority=\" 2\" PriorityVarName=\" codec2\" DisplayText=\" PCMA\" PayloadTypeName=\" payload2\" payload=\" PCMA\">8</Codec><Codec Priority=\" 3\" PriorityVarName=\" codec3\" DisplayText=\" G722\" PayloadTypeName=\" payload3\" payload=\" G722\">9</Codec><Codec Priority=\" 4\" PriorityVarName=\" codec4\" DisplayText=\" G729\" PayloadTypeName=\" payload4\" payload=\" G729\">18</Codec></CodecsPriority><BLFS OwnBlfs=\" 0\" /></PhoneDevice>" 
+        },{
+            "name": "Snom",
+            "models": ["Snom D120","Snom D305","Snom D315","Snom D335","Snom D345","Snom D375","Snom D385","Snom 710","Snom D712","Snom D713","Snom 715/D715","Snom D717","Snom 720","Snom 725/D725","Snom D735","Snom D745","Snom 760","Snom D765","Snom D785","Snom D862","Snom D865"],
+            "xml": "snom.ph.xml",
+            "nosbc": "<PhoneDevice ProvType=\"0\"PhoneLanguage=\"Italiano\"XferType=\"BXfer\"RingTone=\"Ring 1\"QueueRingTone=\"Ring 7\"DateFormat=\"European (day.month)\"TimeFormat=\"24-hour clock\"PowerLed=\"No Power LED notifications\"Backlight=\"Dim after 20 seconds\"><CustomQueueRingTones /><mcgroups enabled=\"false\"/><DynamicOptions><option name=\"vlanwanport\"value=\"False\"/><option name=\"vlanwanid\"value=\"\"/><option name=\"vlanwanpriority\"value=\"\"/><option name=\"vlanpcport\"value=\"False\"/><option name=\"vlanpcid\"value=\"\"/><option name=\"vlanpcpriority\"value=\"\"/></DynamicOptions><LldpOptions /><CodecsPriority><Codec Priority=\"1\"PriorityVarName=\"codec1\"DisplayText=\"G711u\">pcmu</Codec><Codec Priority=\"2\"PriorityVarName=\"codec2\"DisplayText=\"G711a\">pcma</Codec><Codec Priority=\"3\"PriorityVarName=\"codec3\"DisplayText=\"G722\">g722</Codec><Codec Priority=\"4\"PriorityVarName=\"codec4\"DisplayText=\"G729\">g729-annexb=no</Codec></CodecsPriority><BLFS OwnBlfs=\"0\"/></PhoneDevice>"
+        },{
+            "name": "Fanvil",
+            "models": ["Fanvil i56A","Fanvil V62","Fanvil V64","Fanvil V65","Fanvil X1S","Fanvil X1SG","Fanvil X2","Fanvil X210","Fanvil X210i-V2","Fanvil X210-V2","Fanvil X2C","Fanvil X3S","Fanvil X3S(P) Lite","Fanvil X3S(P) Pro","Fanvil X3SG","Fanvil X3SG Lite","Fanvil X3SG Pro","Fanvil X3U","Fanvil X3U Pro","Fanvil X4","Fanvil X4U","Fanvil X4U-V2","Fanvil X5S","Fanvil X5U","Fanvil X5U-V2","Fanvil X6","Fanvil X6U","Fanvil X6U-V2","Fanvil X7","Fanvil X7A","Fanvil X7C","Fanvil X7C-V2","Fanvil X7-V2"],
+            "xml": "fanvil.ph.xml",
+            "nosbc": ""
+        }
+    ], 
+    "credentials": {
+        "password": {"length": 16, "pattern": "XXX111xxx111xX1Xx"}
+    }
+}
