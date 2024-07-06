@@ -40,8 +40,12 @@
         "pinOffset": [10],
         "passOffset": [5,6,43],
         "sbc": [{
-            "name": "no",
-            "id": "no"
-        }]
+                "name": "no",
+                "id": "no"
+            },{
+                "name": "Tel. Router",
+                "id": "Generate"
+            }
+        ]
     }
 }
