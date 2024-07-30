@@ -6,17 +6,17 @@
   <DefaultLocale>it-IT</DefaultLocale>
   <DisplayName DefaultValue="3CX-Tools"/>
   <Description DefaultValue="A tool for 3CX"/>
-  <IconUrl DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <IconUrl DefaultValue="https://zsirag.github.io/3CX-Excel/TOOLS/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://zsirag.github.io/3CX-Excel/TOOLS/assets/icon-64.png"/>
+  <SupportUrl DefaultValue="https://zsirag.github.io/help"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://zsirag.github.io/</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://www.contoso.com/taskpane.html"/>
+    <SourceLocation DefaultValue="https://zsirag.github.io/3CX-Excel/TOOLS/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -62,18 +62,18 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://www.contoso.com/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://zsirag.github.io/3CX-Excel/TOOLS/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://zsirag.github.io/3CX-Excel/TOOLS/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://zsirag.github.io/3CX-Excel/TOOLS/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://www.contoso.com/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://www.contoso.com/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://zsirag.github.io/3CX-Excel/TOOLS/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://zsirag.github.io/3CX-Excel/TOOLS/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started 3CX add-in!"/>
-        <bt:String id="CommandsGroup.Label" DefaultValue="Commands Group"/>
+        <bt:String id="CommandsGroup.Label" DefaultValue="By Zaza"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Show Taskpane"/>
       </bt:ShortStrings>
       <bt:LongStrings>
