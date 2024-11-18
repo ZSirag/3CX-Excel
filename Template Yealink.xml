@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root_contact>
+    <contact display_name="john" office_number="112233" mobile_number="112233" other_number="112233" />
+    <contact display_name="john2" office_number="112233" mobile_number="112233" other_number="112233" />
+</root_contact>
