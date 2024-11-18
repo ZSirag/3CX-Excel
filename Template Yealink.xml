@@ -1,5 +1,14 @@
-<?xml version='1.0' encoding='utf-8' ?>
-<root_contact>
-    <contact display_name="john" office_number="112233" mobile_number="112233" other_number="112233" />
-    <contact display_name="john2" office_number="112233" mobile_number="112233" other_number="112233" />
-</root_contact>
+<?xml version="1.0" encoding="utf-8"?>
+<XXXIPPhoneDirectory clearlight="true">
+    <Title>Phonelist</Title>
+    <Prompt>Prompt</Prompt>
+    <DirectoryEntry>
+        <Name>TEST</Name>
+        <Telephone />
+    </DirectoryEntry>
+    <DirectoryEntry>
+        <Name>NUM</Name>
+        <Telephone>1111222</Telephone>
+        <Telephone>22222333</Telephone>
+    </DirectoryEntry>
+</XXXIPPhoneDirectory>
